@@ -1,0 +1,81 @@
+/*reset css*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+.main-contain{
+	width: 860px;
+	background-color: #F7F9FA;
+	margin: 10px;
+}
+
+/*khoi tin chính*/
+
+article.tin{
+	padding: 10px;
+	background-color: #FFFFFF;
+	display: block;
+	width: 880px;
+	overflow: hidden;
+}
+
+.hinh{
+	width: 100%;
+}
+
+.main-contain h3{
+	color: white;
+	background-color: red;
+	width: 40px;
+}
+
+.link-hinh{
+	margin-bottom: 30px;
+	display: block;
+}
+
+.link-new{
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	display: block;
+	font-family: Arial;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+/*hover nhấn vào link sẽ đổi màu đen thành xanh*/
+
+a.link-new:hover{
+	color: blue;
+}
+
+/*khoi tin nhỏ*/
+.khoi-tin-phu{
+	width: 280px;
+	float: left;
+	margin-right: 5px;
+}
+
+.khoi-tin-phu img{
+	width: 95%;
+}
+
+.khoi-tin-phu p{
+	font-style: italic;
+	color: red;
+	font-size: 10px;
+}
+
+.tieu-de{
+	color: red;
+	border-bottom: 3px solid red;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+.video-youtube{
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+}

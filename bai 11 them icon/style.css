@@ -1,0 +1,10 @@
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+div.icon-ho-cai{
+	font-size: 60px;
+	color:  blue;
+}

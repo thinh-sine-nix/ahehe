@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: #E7E7E7;
+}
+
+.main-container{
+	width: 380px;
+	height: 210px;
+	padding: 20px;
+	margin: 20px;
+	background-color: #FFFFFF;
+}
+
+.follow-title{
+	font-family: 'Roboto', sans-serif;
+	background-color: #FFFFFF;
+	border-bottom: 2px solid black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.follow-title h3{
+	display: inline;
+	background-color: black;
+	color: #FADA1A;
+	/*5 px tren duoi va 10px la trai phai */
+	padding: 5px 10px;
+}
+
+.follow-icon{
+	font-family: 'Roboto', sans-serif;
+	background-color: #FFFFFF;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	/*Phần tử dư ra sẽ bị ẩn 
+	Sử dụng float left ko bị lỗi*/
+	overflow: hidden;
+}
+
+.icon{
+	background-color: #3B5998;
+	width: 120px;
+	height: 120px;
+	float: left;
+	margin-right: 10px;
+	text-align: center;
+}
+
+.icon i{
+	font-size: 64px;
+	color:  white;
+	display: block;
+	background-color: transparent;
+	margin-top: 10px;
+}
+
+.icon p{
+	background-color: transparent;
+	margin-top: 10px;
+	font-weight: bold;
+	color: white;
+}
+
+.twitter{
+	background-color: #1DCAFF;
+}
+
+.google{
+	background-color: #DD4B39;
+}
